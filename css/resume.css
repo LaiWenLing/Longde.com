@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{height:470px; background:url(../images/resume-banner.jpg) no-repeat center;}
+
+.place p{float:right; font-size:14px; color:#464646; line-height:62px; height:62px; background-color:#fff; padding-right:10px;}
+
+.about-icon{background-color:#ebebeb; height:170px; }
+.about-icon ul li{float:left; width:171px; height:170px; text-align:center; position:relative;}
+.about-icon ul li i{width:80px; height:60px; display:block; margin:0 auto; margin-top:33px;
+                       background:url(../images/resume-icon1.png) no-repeat top left; position:relative; z-index:5;}
+.about-icon ul li .icon2{background-image:url(../images/resume-icon2.png);}
+.about-icon ul li .icon3{background-image:url(../images/resume-icon3.png);}
+.about-icon ul li p{font-size:18px; line-height:48px; height:48px; color:#636363; position:relative; z-index:5;}
+.about-icon ul li span{position:absolute; width:171px; height:170px; top:-20px; left:0; background-color:#fff; opacity:0;
+                         transition:all 0.3s;}
+.about-icon ul li span:after{content:""; width:91px; height:38px; margin:0 auto; display:block; border-bottom:3px solid #c7004e;
+                               position:absolute; bottom:0px; left:40px;}
+.about-icon ul .active p{color:#c7004e;}
+.about-icon ul .active span{display:block; top:0; opacity:1;} 
+.about-icon ul li:hover p{color:#c7004e;}
+.about-icon ul li:hover span{ top:0; opacity:1;} 
+
+.main{height:1300px; width:1200px; margin:0 auto;}
+.main-content{border:1px solid #c50253; width:1198px; height:1120px; margin-top:105px;}
+.main-tit{height:48px; background-color:#c50253;}
+.main-tit p{font-size:18px; color:#fff; line-height:48px; height:48px; float:left;}
+.main-tit p i{padding:0 15px;}
+.main-tit span{float:right; color:#fff; line-height:48px; height:48px; font-size:28px; padding:0 15px;}
+.main form{width:599px; float:left; padding-top:22px;}
+.main .form2{padding-top:86px;}
+.main form .text-top{padding-bottom:30px;}
+.main form p{width:80px; padding-right:25px; font-size:14px; color:#000; line-height:34px; height:34px; text-align:right;
+                display:inline-block;}
+.main form .text{width:440px; height:32px; border:1px solid #c9c9c9; background-color:#fff; padding-left:2px;}
+.main form span{width:80px; padding-left:20px; font-size:14px; color:#000; line-height:34px; height:34px; display:inline-block;}
+.main .form3{width:1200px; padding-top:0;}
+.textarea p{float:left; display:inline-block;}
+.textarea .kuang{width:1037px; height:229px; background-color:#eeeeee; padding-left:5px; float:left; border:none; display:inline-block;}
+.main .btn .sub{width:74px; height:34px; line-height:34px; color:#fff;  background-color:#c50253; margin-right:3px; cursor:pointer;}
+.main .btn{padding-top:40px; padding-left:140px;}
+.main .btn .res{width:74px; height:34px; line-height:34px; color:#333;  background-color:#cd8d8d8;cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

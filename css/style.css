@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,input,textarea{margin:0; padding:0;}
+a{text-decoration:none;}
+ul{list-style:none;}
+img,input{border:none;}
+.clear{clear:both;}
+body{font-family:"微软雅黑"; }
+html,body{height:100%;}
+i{font-style:normal;}
+.clearfix:after{content:"200B"; display:block; height:0; font-size:0; clear:both;}
+@font-face{
+	font-family:"fangzhengzongyi";
+	src:url(../fonts/aaa.ttf);
+}
+@font-face{
+	font-family:"youyuan";
+	src:url(../fonts/SIMYOU.TTF);
+}
+
+
+header{position:relative;}
+nav{border-top:13px solid #c7004e; width:100%; height:116px; background-color:#fff; position:relative; z-index:10;}
+.inner{width:1200px; margin:0 auto;}
+nav .logo{float:left; font-size:0; padding-right:27px;}
+nav .logo img{height:116px;}
+nav ul{float:left; padding-right:5px;}
+nav ul li{float:left; padding-right:22px;}
+nav ul li a{font-size:18px; color:#211f1f; line-height:112px; height:112px; display:block;}
+nav ul li .active{color:#d93540; border-bottom:4px solid #d93540;}
+nav ul li a:hover{color:#d93540; border-bottom:4px solid #d93540;}
+nav form{padding-top:47px;}
+nav form .text{width:159px; height:24px; border:1px solid #cacaca; float:left; margin-right:20px;}
+nav form .sub{width:21px; height:21px; background:#fff url(../images/sub.png) no-repeat center top; float:left; cursor:pointer;}
+
+
+
+footer{border-top:10px solid #c7004e;}
+.footer-list{padding-top:36px; padding-bottom:9px; border-bottom:1px solid #eee;}
+.footer-list dl{width:155px; float:left;}
+.footer-list dl dt{font-size:14px; line-height:47px; height:47px; font-weight:600; color:#464646;}
+.footer-list dl dd{font-size:14px; line-height:30px; height:30px;}
+.footer-list dl dd a{ color:#464646;}
+.footer-list dl dd a:hover{ color:#c7004e;}
+.footer-list .last-dl{float:right; width:auto;}
+footer .copy{text-align:center; font-size:14px; color:#2c2c2c; line-height:107px; height:107px; padding-bottom:23px;}
+

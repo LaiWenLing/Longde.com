@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about-icon{ width:100%; position:absolute; top:-50px; opacity:0; transition:all 0.4s ease-in;}
+.about-icon ul li{float:left; width:130px; margin-right:48px; text-align:center;padding-top:20px; padding-bottom:10px; transition:all 0.3s;}
+.about-icon ul li a{display:block; width:130px;}
+.about-icon ul li i{width:60px; height:50px; text-align:center; line-height:50px; margin:0 auto; display:block;
+               background:url(../images/jianjie-icon1.png) no-repeat top left;}
+.about-icon ul li .icon2{ background:url(../images/jianjie-icon2.png) no-repeat top left;}
+.about-icon ul li .icon3{ background:url(../images/jianjie-icon3.png) no-repeat top left;}
+.about-icon ul li .icon4{ background:url(../images/jianjie-icon4.png) no-repeat top left;}
+.about-icon ul li .icon5{ background:url(../images/jianjie-icon5.png) no-repeat top left;}
+.about-icon ul li .icon6{ background:url(../images/jianjie-icon6.png) no-repeat top left;}
+.about-icon ul li .icon7{ background:url(../images/jianjie-icon7.png) no-repeat top left;}
+.about-icon ul li h4{font-size:18px; color:#4d4b4b; line-height:45px; height:45px; font-weight:normal;}
+.about-icon ul li:last-child{ margin-right:0;}
+.about-icon ul li:hover{background-color:#fff;}
+.about-icon ul li:hover h4{color:#c7004e;}
+header:hover .about-icon{top:125px; opacity:1;}
+
+.banner{background:url(../images/banner.jpg) no-repeat center; height:709px;}
+.banner .inner{position:relative;}
+.banner-text{height:190px; position:absolute; top:190px; left:600px; animation:banner-run 1s ease-out;}
+.banner-text h2{font-size:80px; line-height:110px; height:110px; color:#c7004e; font-family:"黑体"; font-weight:bold;}
+.banner-text p{font-size:60px; line-height:90px; height:90px; color:#c7004e; font-family:"youyuan";}
+.banner .l-btn{width:82px; height:240px; background:rgba(255,255,255,0.2) url(../images/l-jiantou.png) no-repeat top left;
+              position:absolute; top:234px; left:-82px; transition:all 0.3s;}
+.banner .r-btn{width:82px; height:240px; background:rgba(255,255,255,0.2) url(../images/r-jiantou.png) no-repeat top left;
+               position:absolute; top:234px; right:-82px; transition:all 0.3s;}
+.banner-btn:hover{background-color:rgba(255,255,255,0.5);}
+@-moz-keyframes banner-run{
+	0%{opacity:0; top:-190px;}
+	75%{opacity:1; top:190px;}
+	87%{opacity:1; top:170px;}
+	100%{opacity:1; top:190px;}
+}
+@-webkit-keyframes banner-run{
+	0%{opacity:0; top:-190px;}
+	75%{opacity:1; top:190px;}
+	87%{opacity:1; top:170px;}
+	100%{opacity:1; top:190px;}
+}
+@-ms-keyframes banner-run{
+	0%{opacity:0; top:-190px;}
+	75%{opacity:1; top:190px;}
+	87%{opacity:1; top:170px;}
+	100%{opacity:1; top:190px;}
+}
+@-o-keyframes banner-run{
+	0%{opacity:0; top:-190px;}
+	75%{opacity:1; top:190px;}
+	87%{opacity:1; top:170px;}
+	100%{opacity:1; top:190px;}
+}
+@keyframes banner-run{
+	0%{opacity:0; top:-190px;}
+	75%{opacity:1; top:190px;}
+	87%{opacity:1; top:170px;}
+	100%{opacity:1; top:190px;}
+}
+
+
+
+.sec-top{width:1200px; margin:0 auto;}
+.sec-top-left{padding-top:107px; width:350px; float:left; text-align:center;}
+.sec-top-mid{margin:0 75px;}
+.sec-icon{height:176px; width:176px; border-radius:50%; margin:0 auto; background-color:#b8b1b1; position:relative; transition:all 1s;}
+.sec-icon i{ height:176px; display:block; background:url(../images/list-pic3.png) no-repeat center; transition:all 1s linear;
+            position:relative; z-index:2;}
+.sec-icon .two{background-image:url(../images/list-pic1.png);}
+.sec-icon .three{background-image:url(../images/list-pic2.png);}
+.sec-icon span{width:100%; height:100%; border-radius:50%; position:absolute; top:0; left:0; right:0; bottom:0; margin:auto;                              background-color:#c7004e; opacity:0; display:block;
+              transform:scale(0.01,0.01); transition:all 0.3s linear;}
+.sec-icon:hover{background-color:#FFFFFF;}
+.sec-icon:hover i{transform:scale(0.9);}
+.sec-icon:hover span{opacity:1; transform:scale(1,1);}
+.sec-top-left h3{font-size:40px; color:#000; line-height:99px; height:99px; font-weight:500; padding-bottom:40px;
+                 position:relative;}
+.sec-top-left p{font-size:18px; color:#5b5656; line-height:26px; padding-bottom:103px;}
+.sec-icon:before{content:"";  width:52px; height:6px; background-color:#a0a0a0; display:inline-block; position:absolute;  top:275px; 
+                 left:35%; transition:all 0.3s linear;}
+.sec-icon:hover:before{background-color:#c7004e;}
+
+.product{background:url(../images/main-banner.jpg) no-repeat center top;}
+.product-left{padding-top:169px; width:600px; float:left;}
+.product-pic{ float:left; display:block; margin:0px 9px 9px 0; background-color:#eeeeee;
+                text-align:center; font-size:0; position:relative;}
+.product-pic a{width:100%; height:100%; opacity:0; display:block; line-height:201px;position:absolute; top:0; left:0; color:#fff; z-index:10;                font-family:"幼圆";text-align:center; font-size:24px;
+               transition:all 0.3s linear;}
+.product-pic .active{ background-color:rgba(210,41,107,0.7); line-height:201px; height:100%; text-align:center; color:#fff;
+                    font-size:24px; opacity:1;}
+.product-pic:hover a{display:block;background-color:rgba(210,41,107,0.7);  color:#fff; opacity:1;
+                     }
+.product-pic-center{width:591px; height:210px;}
+.product-right .product-top{margin-right:0; width:600px; float:left; position:relative;}
+.product-top a{width:100%; height:100%; display:block; position:absolute; top:0; left:0;}
+.product-bot{height:202px; background-color:#eee; width:600px; float:left; margin-bottom:9px;}
+.product-bot p{line-height:39px; height:39px; font-size:36px; color:#c7004e; padding-top:79px; width:211px; margin:0 auto; 
+                transition:all 0.3s linear;}
+.product-bot a:hover p{ border-bottom:2px solid #c7004e;}
+
+.sec-tit{text-align:center; animation:sec-tit 1s ease-out;}
+.sec-tit h4{font-size:36px; color:#221e1e; line-height:56px; height:56px; padding-top:86px; font-weight:500;}
+.sec-tit p{font-size:18px; color:#221e1e; line-height:36px; height:36px; padding-bottom:40px;}
+.about-content{background:url(../images/shafa.jpg) no-repeat center bottom,url(../images/duobianxing.jpg) no-repeat center top; 
+                height:488px;}
+.about-left{padding-top:62px; padding-left:77px; }
+.about-logo{font-size:0; animation:about-logo 1s ease-out;}
+.about-left{float:left; padding-right:44px;}
+.about-left .life{width:179px; height:312px; background-color:#3e3939; opacity:0.8; padding-left:21px; animation:about-logo 1s ease-out;}
+.about-left .life h5{font-size:30px; color:#fff; line-height:41px; height:41px; padding-top:79px; font-weight:400;}
+.about-left .life p{font-size:14px; color:#fff; line-height:26px; height:26px;}
+.about-content .txt{font-size:14px; color:#494949; line-height:30px; padding-top:76px; float:left; width:510px;}
+.about-content .txt a{color:#d8444e;}
+.about-content .reshuiqi{float:right; padding:75px 52px 0 0;}
+@keyframes sec-tit{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes about-logo{
+	0%{margin-left:-180px;}
+	100%{margin-left:0;}
+}
+
+
+.news .sec-tit h4{font-size:36px; color:#221e1e; line-height:56px; height:56px; padding-top:92px; font-weight:500;}
+.sec-tit p{font-size:18px; color:#221e1e; line-height:36px; height:36px; padding-bottom:40px; text-transform:uppercase;}
+.news-list{padding-bottom:103px;}
+.news-left{float:left; width:319px;}
+.news-center{margin:0 120px;}
+.news-pic{font-size:0; position:relative;}
+.news-pic img{width:319px; height:211px; }
+.news-text{text-align:center; width:225px; height:220px; border-left:2px solid #d2d2d2; border-right:2px solid #d2d2d2;
+           border-bottom:2px solid #d2d2d2;padding:0 45px; position:relative;}
+.news-text h5{font-size:18px; color:#534d4d; line-height:43px; height:43px; padding-top:16px; font-weight:400;}
+.news-text p{font-size:14px; color:#988f8f; line-height:22px; text-align:justify; text-align:left; display:block;}
+.news-text a{background-color:#c7004e; font-size:14px; color:#f9f8f8; line-height:27px; height:27px; display:block;
+             width:94px; position:absolute; top:173px; left:45px;}
+.news-pic span{width:100%; height:100%; position:absolute; top:0; left:0; transition:all 0.2s; background-color:rgba(0,0,0,0.2); opacity:0;}
+.news-text a:hover{text-shadow:0 0 10px rgba(255,255,255,0.5),0 0 10px rgba(255,255,255,0.5);}
+.news-left:hover .news-pic span{opacity:1;}
+.news-left:hover .news-text p{text-decoration:underline;}
+			 
+
+
